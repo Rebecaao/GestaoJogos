@@ -31,13 +31,13 @@ public class FremeGestaoJogos extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 779, 671);
 		contentPane = new JPanel();
-		contentPane.setBackground(new Color(255, 250, 240));
+		
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		JLabel lblTitulo = new JLabel("T\u00EDtulo do jogo:");
-		lblTitulo.setFont(new Font("Arial", Font.BOLD, 14));
+		
 		lblTitulo.setBounds(41, 237, 106, 25);
 		contentPane.add(lblTitulo);
 		
@@ -75,7 +75,7 @@ public class FremeGestaoJogos extends JFrame {
 		contentPane.add(lblFabricante);
 		
 		JComboBox<String> comboBoxFabricante = new JComboBox<String>();
-		comboBoxFabricante.setBackground(new Color(240, 128, 128));
+		
 		
 		comboBoxFabricante.setBounds(182, 192, 154, 22);
         DefaultComboBoxModel<E> <String> comboModelFabricante = new DefaultComboBoxModel <String>();
